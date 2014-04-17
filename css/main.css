@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+html,button,input,select,textarea{color:#333;}body{font-size:14px;line-height:2;font-family:Meiryo,"lucida grande",verdana,"Hiragino Kaku Gothic ProN",Sans-Serif;background:url(img/bg.png);}::-moz-selection{color:white;background:gainsboro;text-shadow:none;}::selection{color:white;background:gainsboro;text-shadow:none;}hr{display:block;height:0;margin:2em 0;padding:0;border:0;border-top:1px solid gainsboro;}img{vertical-align:middle;}fieldset{border:0;margin:0;padding:0;}textarea{resize:vertical;}ul,ol{list-style:none;padding:0;}h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{margin:0;}a{color:silver;transition:color .3s;-webkit-transition:color .3s;}a:hover{color:silver;text-decoration:none;}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------
+   Contents
+   -------------------------------------------------------------------------- */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* smart phone - landscape */
+@media screen and (max-device-width: 767px) {
+}
+
+/* smart phone - portrait */
+@media screen and (max-device-width: 480px) {
+}
+
+/* iPhone */
+@media screen and (max-device-width: 320px) {
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden{display:none!important;visibility:hidden;}
+.clearfix:before,.clearfix:after{content:" ";display:table;}.clearfix:after{clear:both;}.clearfix{*zoom:1;}
+.clearfix .L{float:left;}.clearfix .R{float:right;}.clear{clear:both;}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {a,a:visited{text-decoration:underline;}pre,blockquote{page-break-inside:avoid;}thead{display:table-header-group;}tr,img{page-break-inside:avoid;}img{max-width:100%;}@page{margin:.8cm;marks:crop cross;}p,li,dd,dt,h2,h3{orphans:3;widows:3;}h2,h3,h4,h5{page-break-after:avoid;}}
