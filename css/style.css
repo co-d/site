@@ -1,0 +1,9 @@
+#display .class {
+  display: block;
+  font-size: 4em;
+}
+#display .style {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 20px;
+}

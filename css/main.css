@@ -6,7 +6,7 @@ html,button,input,select,textarea{color:#333;}body{font-size:14px;line-height:2;
    Author's custom styles
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Russo+One);
+@import url(//fonts.googleapis.com/css?family=Russo+One);
 
 .soon p {
   position: relative;
@@ -20,12 +20,12 @@ html,button,input,select,textarea{color:#333;}body{font-size:14px;line-height:2;
   top: 50%;
   width: 100%;
   text-align: center;
-  animation: opening .5s ease-in;
-  -webkit-animation: opening .5s ease-in;
+  animation: opening .6s ease-in;
+  -webkit-animation: opening .6s ease-in;
 }
 
 @-webkit-keyframes opening {
-  0% { -webkit-transform: scale(20) rotate(-30deg); opacity: 0; }
+  0% { -webkit-transform: scale(50) rotate(-30deg); opacity: 0; }
   75% { -webkit-transform: scale(1) rotate(0); }
   85% { -webkit-transform: scale(1.5); }
   100% { -webkit-transform: scale(1); }
